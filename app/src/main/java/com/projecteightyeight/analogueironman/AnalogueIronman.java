@@ -358,9 +358,9 @@ public class AnalogueIronman extends CanvasWatchFaceService {
             if (mAmbient && (mLowBitAmbient || mBurnInProtection)) {
                 canvas.drawColor(Color.BLACK);
             } else if (mAmbient) {
-                canvas.drawBitmap(mGrayBackgroundBitmap, 0, 0, mBackgroundPaint);
+                canvas.drawBitmap(mGrayBackgroundBitmap, 0, 00, mBackgroundPaint);
             } else {
-                canvas.drawBitmap(mBackgroundBitmap, 0, 0, mBackgroundPaint);
+                canvas.drawBitmap(mBackgroundBitmap, 0, -30, mBackgroundPaint);
             }
         }
 
